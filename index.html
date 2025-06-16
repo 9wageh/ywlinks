@@ -1,0 +1,122 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Yousef Wageh</title>
+  <!-- Favico -->
+  <link rel="icon" type="image/png" href="/assets/Favico/favicon-96x96.png" sizes="96x96" />
+  <link rel="icon" type="image/svg+xml" href="/assets/Favico/favicon.svg" />
+  <link rel="shortcut icon" href="/assets/Favico/favicon.ico" />
+  <link rel="apple-touch-icon" sizes="180x180" href="/assets/Favico/apple-touch-icon.png" />
+  <meta name="apple-mobile-web-app-title" content="Jox" />
+  <link rel="manifest" href="/assets/Favico/site.webmanifest" />
+  <!-- Style -->
+  <link rel="stylesheet" href="css/styles.css" />
+  <link rel="stylesheet" href="css/animations.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700;800;900&display=swap" rel="stylesheet">
+  <style>
+    body {
+      cursor: url('assets/Svg/cursor.svg'), auto;
+    }
+    a:hover {
+      cursor: url('assets/Svg/cursor-hover.svg'), pointer;
+    }
+    html {
+      scroll-behavior: smooth;
+    }
+    ::selection {
+      background-color: #999;
+      color: white;
+    }
+  </style>
+</head>
+<body>
+  <audio id="click-sound" src="audio/mac_click.mp3" preload="auto"></audio>
+  <audio id="hover-sound" src="audio/mac_hover.mp3" preload="auto"></audio>
+
+  <div class="loader-wrapper">
+    <div class="loader"></div>
+  </div>
+
+  <div class="container fade-in">
+    <div class="header">
+      <img src="assets/avatar.png" alt="Yousef Wageh Avatar" class="avatar" />
+      <h1>Yousef Wageh</h1>
+      <p class="subtitle">Full-stack Web Developer | Graphic Designer</p>
+    </div>
+
+    <div class="section">
+      <ul>
+        <li>
+  <a href="assets/qrcode.png" target="_blank">
+    <div>
+      <img src="assets/icons/qr.png" class="icon" />
+      Scan QR
+    </div>
+  </a>
+</li>
+      </ul>
+      <h2>Social Media</h2>
+      <ul>
+        <li><a href="https://www.instagram.com/y.wk.1/" target="_blank"><div><img src="assets/icons/instagram.png" class="icon" />Instagram</div> <span class="arrow"><img src="./assets/icons/arrow.png" alt="arrow" class="arrow"></span></a></li>
+        <li><a href="https://alvo.chat/69Jj" target="_blank"><div><img src="assets/icons/whatsapp.png" class="icon" />WhatsApp</div><span class="arrow"><img src="./assets/icons/arrow.png" alt="arrow" class="arrow"></span></a></li>
+        <li><a href="https://www.tiktok.com/@y.wk1?_t=ZS-8xFpHDzqD2K&_r=1" target="_blank"><div><img src="assets/icons/tiktok.png" class="icon" />TikTok</div> <span class="arrow"><img src="./assets/icons/arrow.png" alt="arrow" class="arrow"></span></a></li>
+        <li><a href="https://snapchat.com/t/F3glGiZy" target="_blank"><div><img src="assets/icons/snapchat.png" class="icon" />Snapchat</div> <span class="arrow"><img src="./assets/icons/arrow.png" alt="arrow" class="arrow"></span></a></li>
+        <li><a href="mailto:wagehwork001@gmail.com"><div><img src="assets/icons/email.png" class="icon" />Email</div> <span class="arrow"><img src="./assets/icons/arrow.png" alt="arrow" class="arrow"></span></a></li>
+      </ul>
+    </div>
+
+    <div class="section">
+      <h2>Work</h2>
+      <ul>
+        <li><a href="#"><div><img src="assets/icons/portfolio.png" class="icon" />Portfolio (Soon)</div></a></li>
+        <li><a href="https://www.behance.net/y-wk1" target="_blank"><div><img src="assets/icons/behance.png" class="icon" />Behance</div> <span class="arrow"><img src="./assets/icons/arrow.png" alt="arrow" class="arrow"></span></a></li>
+        <li><a href="https://www.freelancer.com/u/YousefKhedr" target="_blank"><div><img src="assets/icons/freelancer.png" class="icon" />Freelancer</div><span class="arrow"><img src="./assets/icons/arrow.png" alt="arrow" class="arrow"></span></a></li>
+        <li><a href="https://github.com/9wageh" target="_blank"><div><img src="assets/icons/github.png" class="icon" />GitHub</div> <span class="arrow"><img src="./assets/icons/arrow.png" alt="arrow" class="arrow"></span></a></li>
+        <li><a href="https://www.linkedin.com/in/ywageh-fullstack/" target="_blank"><div><img src="assets/icons/linkedin.png" class="icon" />LinkedIn</div> <span class="arrow"><img src="./assets/icons/arrow.png" alt="arrow" class="arrow"></span></a></li>
+        <li><a href="mailto:wagehwork001@icloud.com"><div><img src="assets/icons/email.png" class="icon" />Email</div> <span class="arrow"><img src="./assets/icons/arrow.png" alt="arrow" class="arrow"></span></a></li>
+      </ul>
+    </div>
+
+    <div class="section">
+      <h2>Company</h2>
+      <ul>
+        <li><a href="https://www.linkedin.com/company/crevoo-studio" target="_blank"><div><img src="assets/icons/linkedin.png" class="icon" />LinkedIn</div> <span class="arrow"><img src="./assets/icons/arrow.png" alt="arrow" class="arrow"></span></a></li>
+        <li><a href="https://www.tiktok.com/@crevoo.studio" target="_blank"><div><img src="assets/icons/tiktok.png" class="icon" />TikTok</div><span class="arrow"><img src="./assets/icons/arrow.png" alt="arrow" class="arrow"></span></a></li>
+        <li><a href="mailto:crevoo.studio@gmail.com"><div><img src="assets/icons/email.png" class="icon" />Email</div><span class="arrow"><img src="./assets/icons/arrow.png" alt="arrow" class="arrow"></span></a></li>
+      </ul>
+    </div>
+      <div id="copyright" align="center"> </div>
+  </div>
+
+  <script src="js/scripts.js"></script>
+  <script>
+    window.addEventListener('load', () => {
+      document.querySelector('.loader-wrapper').classList.add('fade-out');
+    });
+
+    const clickSound = document.getElementById('click-sound');
+    const hoverSound = document.getElementById('hover-sound');
+
+    document.querySelectorAll('a').forEach(link => {
+      link.addEventListener('click', () => {
+        clickSound.currentTime = 0;
+        clickSound.play().catch(() => {});
+      });
+      link.addEventListener('mouseenter', () => {
+        hoverSound.currentTime = 0;
+        hoverSound.play().catch(() => {});
+      });
+    });
+
+// copyright
+(() => {
+  const copyrightElement = document.getElementById("copyright");
+  copyrightElement.innerHTML = "© 2007 - "+new Date().getFullYear()+" Y.Wageh- All Rights Reserved.";
+})();
+
+  </script>
+</body>
+</html>
